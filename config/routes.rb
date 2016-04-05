@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   post 'login'  => 'sessions#create'
   delete 'logout' => 'sessions#destroy'  
   resources :users
+  resources :account_activations, only: [:edit]
+  #edit_account_activation_url(@user.activation_token, email: @user.email)
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
