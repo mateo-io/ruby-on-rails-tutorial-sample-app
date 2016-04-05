@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'password_resets/new'
+
+  get 'password_resets/edit'
+
   root             'static_pages#home'
   get 'help'    => 'static_pages#help'
   get 'about'   => 'static_pages#about'
@@ -9,6 +13,7 @@ Rails.application.routes.draw do
   delete 'logout' => 'sessions#destroy'  
   resources :users
   resources :account_activations, only: [:edit]
+  resources :password_resets, only: [:edit, :new, :update, :create]
   #edit_account_activation_url(@user.activation_token, email: @user.email)
 
   # Example of regular route:

@@ -1,14 +1,14 @@
 {
   "MiniTest": {
     "coverage": {
-      "/home/matt/Dropbox/Code/workspace/sample_app/config/environment.rb": [
+      "/home/matt/Documents/sample_app/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/config/environments/test.rb": [
+      "/home/matt/Documents/sample_app/config/environments/test.rb": [
         1,
         null,
         null,
@@ -55,7 +55,7 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/config/initializers/assets.rb": [
+      "/home/matt/Documents/sample_app/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -68,7 +68,7 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/config/initializers/backtrace_silencers.rb": [
+      "/home/matt/Documents/sample_app/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -77,18 +77,18 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/config/initializers/cookies_serializer.rb": [
+      "/home/matt/Documents/sample_app/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/config/initializers/filter_parameter_logging.rb": [
+      "/home/matt/Documents/sample_app/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/config/initializers/inflections.rb": [
+      "/home/matt/Documents/sample_app/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -106,18 +106,18 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/config/initializers/mime_types.rb": [
+      "/home/matt/Documents/sample_app/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/config/initializers/session_store.rb": [
+      "/home/matt/Documents/sample_app/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/config/initializers/wrap_parameters.rb": [
+      "/home/matt/Documents/sample_app/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -133,7 +133,12 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/config/routes.rb": [
+      "/home/matt/Documents/sample_app/config/routes.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
         1,
         1,
         1,
@@ -197,21 +202,21 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/app/helpers/application_helper.rb": [
+      "/home/matt/Documents/sample_app/app/helpers/application_helper.rb": [
         1,
         1,
-        24,
-        24,
+        29,
+        29,
         6,
         null,
-        18,
+        23,
         null,
         null,
         null,
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/test/controllers/static_pages_controller_test.rb": [
+      "/home/matt/Documents/sample_app/test/controllers/static_pages_controller_test.rb": [
         1,
         null,
         1,
@@ -239,7 +244,7 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/test/controllers/users_controller_test.rb": [
+      "/home/matt/Documents/sample_app/test/controllers/users_controller_test.rb": [
         1,
         null,
         1,
@@ -311,7 +316,7 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/test/helpers/application_helper_test.rb": [
+      "/home/matt/Documents/sample_app/test/helpers/application_helper_test.rb": [
         1,
         null,
         1,
@@ -323,22 +328,26 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/app/helpers/account_activations_helper.rb": [
+      "/home/matt/Documents/sample_app/app/helpers/account_activations_helper.rb": [
         1,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/app/helpers/sessions_helper.rb": [
+      "/home/matt/Documents/sample_app/app/helpers/password_resets_helper.rb": [
+        1,
+        null
+      ],
+      "/home/matt/Documents/sample_app/app/helpers/sessions_helper.rb": [
         1,
         1,
-        11,
+        12,
         null,
         null,
         null,
         null,
         1,
-        160,
+        165,
         138,
-        22,
+        27,
         2,
         2,
         1,
@@ -353,7 +362,7 @@
         null,
         null,
         1,
-        41,
+        46,
         null,
         null,
         1,
@@ -392,11 +401,11 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/app/helpers/static_pages_helper.rb": [
+      "/home/matt/Documents/sample_app/app/helpers/static_pages_helper.rb": [
         1,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/app/helpers/users_helper.rb": [
+      "/home/matt/Documents/sample_app/app/helpers/users_helper.rb": [
         1,
         null,
         null,
@@ -434,7 +443,7 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/test/helpers/sessions_helper_test.rb": [
+      "/home/matt/Documents/sample_app/test/helpers/sessions_helper_test.rb": [
         1,
         null,
         1,
@@ -455,7 +464,70 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/test/integration/site_layout_test.rb": [
+      "/home/matt/Documents/sample_app/test/integration/password_resets_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/matt/Documents/sample_app/test/integration/site_layout_test.rb": [
         1,
         null,
         1,
@@ -489,7 +561,7 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/test/integration/users_edit_test.rb": [
+      "/home/matt/Documents/sample_app/test/integration/users_edit_test.rb": [
         1,
         null,
         1,
@@ -544,7 +616,7 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/test/integration/users_index_test.rb": [
+      "/home/matt/Documents/sample_app/test/integration/users_index_test.rb": [
         1,
         null,
         1,
@@ -578,7 +650,7 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/test/integration/users_login_test.rb": [
+      "/home/matt/Documents/sample_app/test/integration/users_login_test.rb": [
         1,
         null,
         1,
@@ -630,7 +702,7 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/test/integration/users_signup_test.rb": [
+      "/home/matt/Documents/sample_app/test/integration/users_signup_test.rb": [
         1,
         null,
         1,
@@ -687,7 +759,7 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/test/mailers/user_mailer_test.rb": [
+      "/home/matt/Documents/sample_app/test/mailers/user_mailer_test.rb": [
         1,
         null,
         1,
@@ -704,6 +776,9 @@
         1,
         null,
         null,
+        1,
+        1,
+        1,
         1,
         1,
         1,
@@ -714,7 +789,7 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/test/models/user_test.rb": [
+      "/home/matt/Documents/sample_app/test/models/user_test.rb": [
         1,
         null,
         1,
@@ -796,23 +871,25 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/app/models/user.rb": [
+      "/home/matt/Documents/sample_app/app/models/user.rb": [
         1,
         1,
         null,
         null,
         1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
         null,
         null,
         1,
         1,
         null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
         null,
         null,
         null,
@@ -820,14 +897,14 @@
         1,
         null,
         1,
-        47,
+        48,
         null,
-        47,
+        48,
         null,
         null,
         null,
         1,
-        14,
+        16,
         null,
         null,
         null,
@@ -840,25 +917,47 @@
         null,
         null,
         1,
+        9,
+        9,
+        8,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
         4,
-        4,
-        3,
-        null,
-        null,
-        1,
-        3,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
         null,
         null,
         1,
@@ -868,44 +967,73 @@
         null,
         null,
         1,
-        21,
+        26,
         null,
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/app/mailers/user_mailer.rb": [
+      "/home/matt/Documents/sample_app/app/controllers/users_controller.rb": [
         1,
         null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
         null,
         null,
         null,
+        1,
+        3,
+        null,
+        null,
+        1,
         null,
         null,
         1,
         2,
         2,
+        1,
+        1,
+        1,
+        null,
+        1,
         null,
         null,
         null,
+        1,
+        4,
+        3,
+        3,
         null,
-        null,
+        1,
         null,
         null,
         null,
         1,
         1,
-        null,
         1,
+        1,
+        null,
+        null,
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/app/mailers/application_mailer.rb": [
+      "/home/matt/Documents/sample_app/app/controllers/application_controller.rb": [
         1,
+        null,
+        null,
         1,
         1,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/app/controllers/sessions_controller.rb": [
+      "/home/matt/Documents/sample_app/app/controllers/sessions_controller.rb": [
         1,
         1,
         null,
@@ -939,68 +1067,118 @@
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/app/controllers/application_controller.rb": [
+      "/home/matt/Documents/sample_app/app/controllers/static_pages_controller.rb": [
+        1,
         1,
         null,
         null,
         1,
+        null,
+        null,
         1,
+        null,
+        null,
+        1,
+        null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/app/controllers/users_controller.rb": [
-        1,
-        null,
+      "/home/matt/Documents/sample_app/app/controllers/password_resets_controller.rb": [
         1,
         1,
         1,
         1,
         null,
         1,
-        2,
         null,
         null,
         1,
         2,
+        2,
+        1,
+        1,
+        1,
+        1,
         null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
         null,
         null,
         1,
         3,
-        null,
-        null,
         1,
-        null,
-        null,
         1,
-        2,
         2,
         1,
         1,
         1,
         null,
         1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        7,
+        null,
+        null,
+        1,
+        7,
+        3,
         null,
         null,
         null,
         1,
         4,
-        3,
-        3,
-        null,
-        1,
+        0,
+        0,
         null,
         null,
         null,
         1,
-        1,
-        1,
-        1,
-        null,
+        2,
         null,
         null,
         null
       ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/app/controllers/account_activations_controller.rb": [
+      "/home/matt/Documents/sample_app/app/mailers/user_mailer.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        2,
+        null,
+        2,
+        null,
+        null
+      ],
+      "/home/matt/Documents/sample_app/app/mailers/application_mailer.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/home/matt/Documents/sample_app/app/controllers/account_activations_controller.rb": [
         1,
         1,
         3,
@@ -1013,26 +1191,11 @@
         2,
         2,
         null,
-        null,
-        null
-      ],
-      "/home/matt/Dropbox/Code/workspace/sample_app/app/controllers/static_pages_controller.rb": [
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
         null,
         null
       ]
     },
-    "timestamp": 1459828993
+    "timestamp": 1459875885
   },
   "Integration Tests": {
     "coverage": {
