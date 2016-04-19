@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+	has_many :microposts, dependent: :destroy
 	attr_accessor :remember_token, :activation_token, :reset_token
 
 	#Attribute validation
@@ -16,7 +17,10 @@ class User < ActiveRecord::Base
 	has_secure_password
 	validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
 
-	
+	#Get user microposts
+	def feed
+		Micropost.where("user_id= ?", id)
+	end
 	
 	
 	#ClASS METHODS
@@ -57,8 +61,7 @@ class User < ActiveRecord::Base
 
 	#Activation methods
 	def activate
-		update_attribute(:activated, true)
-		update_attribute(:activated_at, Time.zone.now)
+		update_columns(activated: true, activated_at: Time.zone.now)
 	end
 
 	#Activation email
@@ -72,8 +75,8 @@ class User < ActiveRecord::Base
 	#RESET PASSWORD METHODS
 	def create_reset_digest
 		self.reset_token=User.new_token
-		update_attribute(:reset_digest, User.digest(reset_token))
-		update_attribute(:reset_sent_at, Time.zone.now)
+		update_columns(reset_digest:  User.digest(reset_token),
+                   reset_sent_at: Time.zone.now)
 	end
 
 	#Password reset email

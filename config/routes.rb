@@ -14,7 +14,8 @@ Rails.application.routes.draw do
   resources :users
   resources :account_activations, only: [:edit]
   resources :password_resets, only: [:edit, :new, :update, :create]
-  #edit_account_activation_url(@user.activation_token, email: @user.email)
+  resources :microposts,          only: [:create, :destroy]
+  
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
