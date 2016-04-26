@@ -34,3 +34,10 @@ following.each { |followed| user.follow(followed) }
 followers.each { |follower| follower.follow(user) }
 
 
+User.create!(name:  "Eve",
+             email: "eve@gato.miau",
+             password:              "hitlemeodia",
+             password_confirmation: "hitlermeodia",
+             admin:     true,
+             activated: true,
+             activated_at: Time.zone.now)
