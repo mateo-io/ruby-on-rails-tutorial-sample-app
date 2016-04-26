@@ -36,7 +36,7 @@ followers.each { |follower| follower.follow(user) }
 
 User.create!(name:  "Eve",
              email: "eve@gato.miau",
-             password:              "hitlemeodia",
+             password:              "hitlermeodia",
              password_confirmation: "hitlermeodia",
              admin:     true,
              activated: true,
